@@ -1,6 +1,7 @@
 *{
 margin: 0;
 padding: 0;
+background-color: black;
 box-sizing: border-box;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -88,7 +89,7 @@ a{
     text-align: justify;
 }
 .post{
-    background-color: white;
+    background-color: black;
     box-shadow: rgba(0, 0, 0, 0.1)0px 10px 15px -3px rgba(0, 0, 0, 0.05)0px 4px 6px -2px;
     margin-top: 3rem;
     
@@ -105,6 +106,9 @@ a{
     padding: 0 1rem;
     margin-top: -1.5rem;
 }
+h2, p{
+    color: white;
+}
 .post-info h2:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -114,12 +118,14 @@ a{
 }
 footer {
     margin: top 3rem;
-    background-color:white;
+    background-color:gray;
     box-shadow: 0px 0 5px rgba(0, 0, 0, 0.1);
 }
 footer p{
     text-align: center;
     padding: 1rem 0.875rem;
+    color: white;
+
 }
 
 @media (max-width: 800px) {
